@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Package</id>
+    <version>1.0.0</version>
+    <authors>Amrah</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/</projectUrl>
+    <iconUrl>https://github.com/logos</iconUrl>
+    <description>MyPackage description</description>
+    <releaseNotes>Summary of changes made in this release of the MyPackage.</releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>MyPackage Tag1 Tag2</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="System.Net.Http" version="4.3.4" />
+		<dependency id="Newtonsoft.Json" version="13.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="MyPackageNuget\Class1.cs" target="content\MyFolder\Class1.cs"/>
+	<file src="MyPackageNuget\information.html"  target="content\information.html"/>
+  </files>
+</package>

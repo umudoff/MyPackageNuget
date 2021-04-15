@@ -20,7 +20,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="MyPackageNuget\Class1.cs" target="content\MyFolder\Class1.cs"/>
 	<file src="MyPackageNuget\information.html"  target="content\information.html"/>
+	<file src="MyPackageNuget\bin\Debug\netcoreapp3.1\MyPackageNuget.dll" target="lib"></file>
   </files>
 </package>

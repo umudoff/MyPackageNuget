@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-  <appSettings xdt:Transform="InsertIfMissing"></appSettings>
-  <appSettings>
-    <add key="MaestroServer" value="1234" xdt:Transform="Insert"/>
+  <appSettings xdt:Transform="InsertIfMissing">
+    <add key="MaestroServer" value="1234" xdt:Transform="InsertIfMissing"/>
   </appSettings>
 </configuration>
+

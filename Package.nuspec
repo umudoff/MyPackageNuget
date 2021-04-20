@@ -22,5 +22,7 @@
   <files>
 	<file src="MyPackageNuget\information.html"  target="content\information.html"/>
 	<file src="MyPackageNuget\bin\Debug\netcoreapp3.1\MyPackageNuget.dll" target="lib"></file>
+	<file src="MyPackageNuget\app.config.install.xdt" target="content" />
+	<file src="MyPackageNuget\app.config.uninstall.xdt" target="content" />
   </files>
 </package>
